@@ -14,8 +14,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(actual_input, expected_output)
 
     def test_case3(self):
-        actual_input = runner_up_score([2, 3, 5, 6, 7, 7,7])
-        expected_output = 6
+        actual_input = runner_up_score([2, 3, 5, 6,9,7])
+        expected_output = 7
         self.assertEqual(actual_input, expected_output)
 
 
