@@ -1,5 +1,5 @@
 from src.percentage_problem.util import *
-result=percent_calc({'Krishna': [67,68,69], 'Arjun': [70,98,63],'Malika': [52,56,60]},'Malika')
+result=percent_calculation({'Kesavan': [67,68,69], 'Aravind': [70,98,63],'Manoj': [52,56,60]},'Kesavan')
 print(result)
 
 
