@@ -8,6 +8,11 @@ class MyTestCase(unittest.TestCase):
         expected_output = "Yes"
         self.assertEqual(actual_output, expected_output)  # add assertion here
 
+    def test_case1(self):
+        actual_output = piling_up(1, [[1, 3, 2]])
+        expected_output = "No"
+        self.assertEqual(actual_output, expected_output)
+
 
 if __name__ == '__main__':
     unittest.main()
